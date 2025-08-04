@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Color_primario:darkblue;
+    --Color_secundario: white;
+    --Tipo_letra: Arial, Helvetica, sans-serif;
+    --Color_letras: black;
+}
+
+.navegacion{
+    height: 100vh;
+    width:100vw;
+    padding: 20px;
+    background-color: var(--Color_primario);
+    display: flex;
+}
+
+.navegacion_caja{
+    margin: 10px;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--Color_secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navegacion_link{
+    text-decoration: none;
+    font-family: var(--Tipo_letra);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--Color_letras);
+}
