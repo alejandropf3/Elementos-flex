@@ -9,7 +9,10 @@
     --Color_secundario: white;
     --Tipo_letra: Arial, Helvetica, sans-serif;
     --Color_letras: black;
+    --Color_letras_claro: white;
 }
+
+/*Aplicamos estilos a los elementos que componen el menu principal*/
 
 .navegacion{
     height: 100vh;
@@ -38,3 +41,26 @@
     font-weight: 600;
     color: var(--Color_letras);
 }
+
+/*Desarrollo del punto 1 (Barra de navegacion)*/
+
+.barra_navegacion{
+    background-color: var(--Color_primario);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.barra_navegacion-link{
+    text-decoration: none;
+    color: var(--Color_letras_claro);
+    font-family: var(--Tipo_letra);
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/*Desarollo del punto 2 (Tarjeta de producto)*/
+
