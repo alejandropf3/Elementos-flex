@@ -380,3 +380,60 @@
     font-family: var(--Tipo_letra);
     color: var(--Color_letras);
 }
+
+/*Desarollo del punto 8 (Footer con tres columnas)*/
+
+.footer_trescolumnas{
+    height: 200px;
+    width: 100%;
+    background-color: var(--Color_primario);
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    display: flex;
+}
+
+.footer_trescolumnas-columna1{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.500);
+}
+
+.footer_trescolumnas-columna2{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.500);
+}
+
+.footer_trescolumnas-columna3{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_trescolumnas-titulo{
+    color: var(--Color_letras_claro);
+    font-family: var(--Tipo_letra);
+    font-weight: 600;
+}
+
+.footer_trescolumnas-lista{
+    margin-left: 20px;
+    color: var(--Color_letras_claro);
+    font-family: var(--Tipo_letra);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
