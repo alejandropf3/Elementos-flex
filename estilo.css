@@ -523,3 +523,73 @@
         border-color: var(--Color_primario);
     }
 }
+
+/*Desarollo del punto 10 (Sidebar de navegación)*/
+
+.sidebar-contenedor{
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar{
+    width: 280px;
+    height: 90%;
+    padding: 10px;
+    background-color: var(--Color_secundario);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    box-shadow: -2px 2px 9px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.sidebar-imagen{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.500);
+    object-fit: cover;
+}
+
+.sidebar_navegacion{
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar_navegacion_contenedor{
+    height: 50px;
+    width: 100%;
+    margin: 10px 0px;
+    background-color: var(--Color_secundario);
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_navegacion-link{
+    color: var(--Color_letras);
+    font-family: var(--Tipo_letra);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sidebar-icono{
+    color: black;
+    margin: 0px 5px;
+}
+
+.sidebar_navegacion_contenedor:hover{
+    border: 2px solid rgba(0, 0, 0, 0.500);
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.sidebar_navegacion_contenedor:active{
+    background-color: rgba(0, 0, 0, 0.200);
+}
