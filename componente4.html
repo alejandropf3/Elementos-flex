@@ -10,21 +10,48 @@
 
     <section class="formulario">
 
-        <form action="">
+        <form action="" method="get">
 
-            <section class="formulario_campos-filas">
+            <h1 class="formulario_titulo">Introduce tus datos</h1>
+
+            <div class="formulario_campos-filas">
+                
 
                 <div class="formulario_campos">
-                    <label for="Nombre">Ingrese el nombre</label>
-                    <input type="text" id="Nombre" class="formulario_campos_inputs">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" class="formulario_campos_inputs" required>
                 </div>
 
                 <div class="formulario_campos">
-                    <label for="Nombre">Ingrese el nombre</label>
-                    <input type="text" id="Nombre" class="formulario_campos_inputs">
+                    <label for="Apellido1">Apellido 1</label>
+                    <input type="text" id="Apellido1" class="formulario_campos_inputs" required>
                 </div>
 
-            </section>
+                <div class="formulario_campos">
+                    <label for="Apellido2">Apellido 2</label>
+                    <input type="text" id="Apellido2" class="formulario_campos_inputs" required>
+                </div>
+
+                <div class="formulario_campos">
+                    <label for="Telefono">Telefono</label>
+                    <input type="number" id="Telefono" class="formulario_campos_inputs" required>
+                </div>
+
+                <div class="formulario_campos">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" class="formulario_campos_inputs" required>
+                </div>
+
+                <div class="formulario_campos">
+                    <label for="Confirma-email">Confirna email</label>
+                    <input type="email" id="Confirma-email" class="formulario_campos_inputs" required>
+                </div>
+
+            </div>
+
+            <div class="formulario_campos-boton">
+                    <button type="submit" class="formulario_boton">Enviar</button>
+            </div>
 
         </form>
 
