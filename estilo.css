@@ -20,6 +20,8 @@
     padding: 20px;
     background-color: var(--Color_primario);
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .navegacion_caja{
@@ -281,3 +283,50 @@
 
 /*Desarollo del punto 6 (Lista de tareas)*/
 
+.lista_tareas{
+    background-color: var(--Color_primario);
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 9px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.lista_tareas-titulo{
+    font-family: var(--Tipo_letra);
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--Color_letras_claro);
+    margin-top: 15px;
+}
+
+.lista_tareas-contenedor{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lista_tareas-tarea{
+    font-family: var(--Tipo_letra);
+    color: var(--Color_letras_claro);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.lista_tareas-boton-dieño{
+    height: 30px;
+    width: 90px;
+    font-family: var(--Tipo_letra);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--Color_secundario);
+    border: solid 1px rgba(0, 0, 0, 0.500);
+}
